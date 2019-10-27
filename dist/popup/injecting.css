@@ -1,0 +1,48 @@
+
+.ui_main_box[data-v-3b5d5aa4] {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: rgba(14, 14, 14, 0.7);
+  z-index: 9999;
+  padding: 5px;
+  border-radius: 5px;
+}
+.ui_header[data-v-3b5d5aa4] {
+  user-select: none;
+  font: 18px Consolas;
+  color: rgb(241, 241, 241);
+  margin-bottom: 5px;
+  text-align: center;
+}
+.ui_button_box[data-v-3b5d5aa4] {
+  display: flex;
+  margin-bottom: 5px;
+}
+.ui_button_box[data-v-3b5d5aa4] > :nth-child(2)
+{
+  margin-left: 5px;
+}
+.ui_button[data-v-3b5d5aa4] {
+  width: 180px;
+  height: 24px;
+  background: rgba(241, 241, 241, 0.3);
+  border: 1px solid rgba(241, 241, 241, 0.5);
+  cursor: pointer;
+  transition: .2s all ease;
+  user-select: none;
+  /* Текст */
+  font: 700 17px Consolas;
+  color: #2ecc71;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ui_button[data-v-3b5d5aa4]:hover {
+  font: 700 18px Consolas;
+}
+.ui_input[data-v-3b5d5aa4] {
+  width: 178px;
+}
+
+

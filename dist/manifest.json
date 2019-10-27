@@ -1,0 +1,47 @@
+{
+  "name": "ttwars_bot",
+  "description": "TTWars bot by Scr1m",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "icons": {
+    "48": "icons/icon_48.png",
+    "128": "icons/icon_128.png"
+  },
+  "permissions": [
+    "activeTab",
+    "notifications",
+    "http://*/*",
+    "https://*/*",
+    "debugger"
+  ],
+  "browser_action": {
+    "default_title": "ttwars_bot",
+    "default_popup": "popup/popup.html"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "options_ui": {
+    "page": "options/options.html",
+    "chrome_style": true
+  },
+  "web_accessible_resources": [
+    "popup/controller.js",
+    "popup/injecting.css"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.ttwars.com/*"
+      ],
+      "js": [
+        "popup/injecting.js"
+      ],
+      "css": [
+        "popup/injecting.css"
+      ]
+    }
+  ]
+}
