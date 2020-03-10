@@ -1,3 +1,3 @@
-# TTWars-Bot 
+# Google chrome extension - TTWars-Bot.
 
-## Google chrome extension for ttwars.com
+Basic bot for farm / build / train troops at ttwars.com servers
